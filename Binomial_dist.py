@@ -1,13 +1,13 @@
 from scipy.stats import binom
 """
 Given a fair coin flipped 100 times, the program gives the probability of 
-a user-defined number of flips coming up heads, 
+a user-defined number of flips coming up heads (or tails), 
 then gives the mean and variance of the binomial distribution
 """
 print("Enter k value for flips coming up heads")
 k = int(input())  # user-defined number of successes
 
-n = 100  # trials
+n = 1000  # trials
 p = 0.5  # probability of getting heads or tails per coin toss
 
 prob = binom.pmf(k, n, p)
