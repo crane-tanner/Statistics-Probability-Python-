@@ -1,7 +1,7 @@
 import rolling_dice_functions as rdf
 
 """
-App to roll 1 or 2 dice
+App to simulate the rolling of 1-2 dice. 
 """
 
 
